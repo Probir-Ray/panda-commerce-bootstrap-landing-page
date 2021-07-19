@@ -1,0 +1,19 @@
+.slider-color {
+  background-color: #fde9e8;
+}
+button.btn-style,
+input[type="email"] {
+  width: 100px;
+  height: 45px;
+}
+button.btn-style {
+  background-image: linear-gradient(to bottom, #ff589b, #ff136f);
+}
+input[type="email"] {
+  width: 300px;
+}
+
+input[type="email"]:hover,
+input[type="email"]:focus-visible {
+  border: 1px solid #ff136f;
+}
